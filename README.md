@@ -8,7 +8,7 @@ This repository contains PyTorch code for training and evaluating an EfficientNe
   
 ## Features
 - **Dataset**: CIFAR-10, preprocessed with data augmentation and normalization.
- **Model**: Pre-trained [EfficientNetV2](https://github.com/hankyul2/EfficientNetV2-pytorch) loaded from PyTorch Hub.
+- **Model**: Pre-trained [EfficientNetV2](https://github.com/hankyul2/EfficientNetV2-pytorch) loaded from PyTorch Hub.
 - **Techniques**:
   - Mixed precision training using `torch.cuda.amp` for faster training.
   - Gradient accumulation to simulate larger batch sizes.
